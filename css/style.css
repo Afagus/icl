@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+image {
+    border: 0;
+}
+
+#main-layout{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.fourth-page {
+
+}
+#Featured-research-project{
+    height: 757px;
+    background-image: url("../img/woman.jpg");
+
+}
+#installations{
+
+    height: 405px;
+    background: #f4f4f4 url(../img/blue-font-gradient.jpg);
+}
+
+.our-partners{
+    height: 705px;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 29px;
+
+}
+#from-prestigious{
+    padding-top: 55px;
+    font-size: 22px;
+    width: 800px;
+    text-align: center;
+    padding-left: 240px;
+    padding-bottom: 130px;
+}
+.logotype{
+    text-align: center;
+    width: 920px;
+    padding-left: 170px;
+
+}
+.pre-footer h2{
+    padding-top: 100px;
+    padding-left: 85px;
+    font-size: 42px;
+}
+.pre-footer{
+    height: 520px;
+
+    background-image: url("../img/bottle.jpg");
+}
+.pre-footer img{
+    float: right;
+    margin-right: 2em;
+}
+#annotation{
+    width: 420px;
+
+}
+
+footer{
+    height: 335px;
+    background-color: #12043d;
+    text-align: center;
+    padding-top: 90px;
+}
+footer nav {
+    padding-top: 50px;
+
+}
+a{
+    margin: 13px;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+li{
+    display: inline;
+    list-style-type: none;
+
+}
+table{
+    text-align: center;
+    width: auto;
+    border-spacing: 6px;
+
+}
