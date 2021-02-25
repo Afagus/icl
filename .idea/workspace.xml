@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f14384-f0e7-4155-ab53-895c34dbbfb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="10f14384-f0e7-4155-ab53-895c34dbbfb1" name="Default Changelist" comment="добавил альты">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +71,23 @@
       <workItem from="1614180012991" duration="21679000" />
       <workItem from="1614251142238" duration="155000" />
       <workItem from="1614257974722" duration="112000" />
-      <workItem from="1614258192188" duration="297000" />
+      <workItem from="1614258192188" duration="881000" />
     </task>
+    <task id="LOCAL-00001" summary="добавил альты">
+      <created>1614258552502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614258552502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавил альты">
+      <created>1614258724671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614258724671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,31 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="540" y="247" key="#Servers" timestamp="1614017520526">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="540" y="247" key="#Servers/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614017520526" />
-    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614017535121">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614017535121" />
-    <state x="838" y="478" key="Github.ShareDialog" timestamp="1614020973798">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="838" y="478" key="Github.ShareDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614020973798" />
-    <state x="822" y="285" key="Github.UntrackedFilesDialog" timestamp="1614020986054">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="822" y="285" key="Github.UntrackedFilesDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614020986054" />
-    <state x="461" y="225" key="SettingsEditor" timestamp="1614021008612">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="461" y="225" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614021008612" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1614019244846">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614019244846" />
+    <MESSAGE value="добавил альты" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил альты" />
   </component>
 </project>
