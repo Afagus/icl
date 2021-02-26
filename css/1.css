@@ -1,0 +1,219 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+image {
+    border: 0;
+}
+
+
+.layout {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-page {
+    background-image: url("../img/back-1.jpg");
+    height: 770px;
+}
+
+.first-page .logo {
+    padding-left: 108px;
+    padding-top: 30px;
+    width: 260px;
+    float: left;
+}
+
+.first-page nav {
+    padding-top: 42px;
+    padding-right: 40px;
+    text-align: right;
+    width: auto;
+    font-size: smaller;
+}
+
+.bromine {
+    padding-top: 200px;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: xx-large;
+}
+
+.annotation-firs-page {
+    height: 300px;
+    background-color: #4f71ed;
+    color: #f4f4f4;
+    text-align: center;
+}
+.annotation-firs-page p{
+    padding-top:110px;
+    padding-left: 350px;
+    width: 565px;
+    font-size: large;
+    line-height: 25px;
+}
+
+.second-page {
+    height: 978px;
+    margin-top: 156px;
+}
+.bromine-for-Energy-Storage{
+    width: 700px;
+    text-align: center;
+    padding-left: 290px;
+    font-size: 23px;
+}
+
+.bromine-for-Energy-Storage p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.icon-links{
+    width: 810px;
+    height: 310px;
+}
+
+
+.video{
+    height: 755px;
+    background-image: url("../img/video.png");
+
+}
+
+.promo{
+    height: 362px;
+    text-align: center;
+    position: relative;
+
+}
+.products{
+    padding-top: 85px;
+    width: 423px;
+    float: left;
+
+}
+.research{
+    padding-top: 85px;
+    width: 433px;
+    float: left;
+}
+.resource-center{
+    padding-top: 85px;
+    width: 420px;
+    background-color: #4f71ed;
+    float: right;
+}
+
+#Featured-research-project {
+    height: 757px;
+    background-image: url("../img/woman.jpg");
+
+}
+
+#installations {
+
+    height: 405px;
+    background: #f4f4f4 url(../img/blue-font-gradient.jpg);
+}
+
+.our-partners {
+    height: 705px;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 29px;
+
+}
+
+#from-prestigious {
+    padding-top: 55px;
+    font-size: 22px;
+    width: 800px;
+    text-align: center;
+    padding-left: 240px;
+    padding-bottom: 130px;
+}
+
+.logotype {
+    text-align: center;
+    width: 920px;
+    padding-left: 170px;
+
+}
+
+.pre-footer h2 {
+    padding-top: 100px;
+    padding-left: 85px;
+    font-size: 42px;
+}
+
+.pre-footer {
+    height: 520px;
+    background-color: #f4f4f4;
+
+
+}
+
+.pre-footer img {
+    float: right;
+    margin-right: 2em;
+    opacity: 0.85
+
+}
+
+#annotation {
+    width: 420px;
+
+}
+
+footer {
+    height: 335px;
+    background-color: #12043d;
+    text-align: center;
+    padding-top: 90px;
+}
+
+footer nav {
+    padding-top: 50px;
+
+
+}
+
+a {
+    margin: 13px;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+
+}
+
+table {
+    text-align: center;
+    width: auto;
+    border-spacing: 6px;
+
+}
+
