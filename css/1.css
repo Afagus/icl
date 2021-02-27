@@ -4,13 +4,14 @@
     margin: 0;
 }
 
-image {
+img {
     border: 0;
+    vertical-align: top;
+    max-width: 100%;
 }
 
 
 .layout {
-    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -34,7 +35,7 @@ image {
 
 .first-page {
     background-image: url("../img/back-1.jpg");
-    height: 770px;
+    height: 100vh;
 }
 
 .first-page .logo {
@@ -49,7 +50,7 @@ image {
     padding-right: 40px;
     text-align: right;
     width: auto;
-    font-size: smaller;
+    font-size: 15px;
 }
 
 .bromine {
