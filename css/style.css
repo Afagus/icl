@@ -158,8 +158,7 @@ h1, h2, h3, h4 {
 
     /* Icons */
 
-.section-icons{
+.section-icons1{
     display: flex;
-    align-content: space-around;
-
+    justify-content: center;
 }
