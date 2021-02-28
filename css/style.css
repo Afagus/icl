@@ -1,31 +1,165 @@
 /* GENERAL */
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-img {
-    border: 0;
-    vertical-align: top;
-    max-width: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-#header {
+* {
+    box-sizing: border-box;
+}
+
+/*img {
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+}*/
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*Header*/
+.header {
+    width: 100%;
     position: absolute;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.logo{
+    padding-left: 30px;
+}
+.header-inside {
+    display: flex; /* делаем блоки из дочерних элементов */
+    justify-content: space-between; /* размещаем равномерно по ширине блока*/
+    align-items: center;
+}
+
+/* Navigation */
+.nav-header {
+    font-size: 14px;
+}
+
+.head-menu {
+    display: inline-block;
+    /* Это значение генерирует блочный
+                               элемент, который обтекается другими
+                               элементами веб-страницы подобно встроенному
+                               элементу*/
+
+    vertical-align: top;
+    /*Выравнивает элемент по вертикали
+                               относительно своего родителя, окружающего
+                               текста или ячейки таблицы.*/
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none; /*убирием подчеркивание*/
+    transition: color .2s linear;
+    /*Устанавливает эффект перехода
+                                       между двумя состояниями элемента*/
+
+}
+
+.head-menu:hover {
+    color: #4f71ed; /* меняем цвет при наведении*/
 }
 
 
-.first-page {
-    background: url(../img/back-1.jpg) no-repeat 50% 50%;
-    background-size: cover;
+/* Title page */
+.title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     height: 100vh;
+    background: url("../img/back-1.jpg") no-repeat /* картинка без повторений*/ center /* масштабирование от центра*/;
+    background-size: cover; /* занимает всю площадь экрана*/
+}
 
+.title-slogan {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-slogan {
+    font-size: 135px;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.secondary-slogan {
+    font-size: 46px;
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.arrow-down {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Title Annotation */
+.title-annotation{
+    background-color: #4f71ed;
+
+}
+.annotation{
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.from-row-materials {
+    margin: 0;
+    padding: 110px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*Section*/
+    .section-header{
+        text-align: center;
+        margin: 0 auto;
+}
+
+    .bromine-for-energy-storage{
+        font-weight: lighter;
+        font-size: 42px;
+        padding-top: 160px;
+        letter-spacing: 2px;
+
+
+    }
+    .section-annotation{
+        font-size: 18px;
+        padding-top: 50px;
+        display: block;
+        max-width: 750px;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        color: dimgray;
+        line-height: 1.5em;
+    }
+
+    /* Icons */
+
+.section-icons{
+    display: flex;
+    align-content: space-around;
 
 }
