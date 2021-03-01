@@ -19,10 +19,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10f14384-f0e7-4155-ab53-895c34dbbfb1" name="Default Changelist" comment="переделка сотый раз">
+    <list default="true" id="10f14384-f0e7-4155-ab53-895c34dbbfb1" name="Default Changelist" comment="begin">
+      <change afterPath="$PROJECT_DIR$/img/home_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/link-black.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/link.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/battery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blue-font-gradient.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/abundant-chemical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/cost-effective.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/env-friendly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/images/superior-perfomance_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/long-life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/safe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/superior-perfomance.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -87,8 +115,6 @@
       <workItem from="1614016592927" duration="4455000" />
       <workItem from="1614269436403" duration="7539000" />
       <workItem from="1614357687654" duration="5307000" />
-      <workItem from="1614422688988" duration="17071000" />
-      <workItem from="1614505219354" duration="21276000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1614021045059</created>
@@ -111,21 +137,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614269851072</updated>
     </task>
-    <task id="LOCAL-00004" summary="переделка сотый раз">
-      <created>1614442073303</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1614442073303</updated>
-    </task>
-    <task id="LOCAL-00005" summary="переделка сотый раз">
-      <created>1614526435406</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1614526435406</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,14 +158,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="begin" />
-    <MESSAGE value="переделка сотый раз" />
-    <option name="LAST_COMMIT_MESSAGE" value="переделка сотый раз" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="258" key="#Inspections" timestamp="1614440517408">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="586" y="258" key="#Inspections/0.0.1920.1160@0.0.1920.1160" timestamp="1614440517408" />
     <state x="540" y="247" key="#Servers" timestamp="1614017520526">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -178,19 +185,18 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="225" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614021008612" />
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1614526448022">
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1614269854955">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1614526448022" />
     <state x="552" y="313" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614269854955" />
     <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614269463657">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614269463657" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1614506450741">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1614617650973">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1614506450741" />
+    <state x="616" y="270" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1614617650973" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1614019244846">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
