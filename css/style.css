@@ -157,7 +157,9 @@ h1, h2, h3, h4 {
     }
 
     /* Icons */
-
+.section-ic{
+    padding-bottom: 100px;
+}
 .section-icons1, .section-icons2 {
     display: flex;
     flex-direction: row;
