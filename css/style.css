@@ -35,9 +35,11 @@ h1, h2, h3, h4 {
     right: 0;
     z-index: 1000;
 }
-.logo{
+
+.logo {
     padding-left: 30px;
 }
+
 .header-inside {
     display: flex; /* делаем блоки из дочерних элементов */
     justify-content: space-between; /* размещаем равномерно по ширине блока*/
@@ -62,7 +64,7 @@ h1, h2, h3, h4 {
                                текста или ячейки таблицы.*/
     margin: 0 10px;
     color: #fff;
-    text-decoration: none; /*убирием подчеркивание*/
+    text-decoration: none; /*убераем подчеркивание*/
     transition: color .2s linear;
     /*Устанавливает эффект перехода
                                        между двумя состояниями элемента*/
@@ -112,16 +114,18 @@ h1, h2, h3, h4 {
 }
 
 /* Title Annotation */
-.title-annotation{
+.title-annotation {
     background-color: #4f71ed;
 
 }
-.annotation{
+
+.annotation {
     width: 100%;
     max-width: 620px;
     margin: 0 auto;
     text-align: center;
 }
+
 .from-row-materials {
     margin: 0;
     padding: 110px 0;
@@ -132,55 +136,59 @@ h1, h2, h3, h4 {
 }
 
 /*Section*/
-    .section-header{
-        text-align: center;
-        margin: 0 auto;
+.section-header {
+    text-align: center;
+    margin: 0 auto;
 }
 
-    .bromine-for-energy-storage{
-        font-weight: lighter;
-        font-size: 42px;
-        padding-top: 160px;
-        letter-spacing: 2px;
+.bromine-for-energy-storage {
+    font-weight: lighter;
+    font-size: 42px;
+    padding-top: 160px;
+    letter-spacing: 2px;
 
 
-    }
-    .section-annotation{
-        font-size: 18px;
-        padding-top: 50px;
-        display: block;
-        max-width: 750px;
-        margin: 0 auto;
-        letter-spacing: 1px;
-        color: dimgray;
-        line-height: 1.5em;
-    }
+}
 
-    /* Icons */
-.section-ic{
+.section-annotation {
+    font-size: 18px;
+    padding-top: 50px;
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    color: dimgray;
+    line-height: 1.5em;
+}
+
+/* Icons */
+.section-ic {
     padding-bottom: 100px;
 }
-.section-icons1, .section-icons2 {
+
+.section-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 70px;
 }
 
-.section-links{
+.section-links {
     display: flex;
     justify-content: center;
     padding-top: 112px;
     padding-bottom: 130px;
 }
-.energy-storage-link{
+
+.energy-storage-link {
     content: url("../img/link.gif");
 }
-.energy-storage-link:hover{
+
+.energy-storage-link:hover {
     content: url("../img/link-black.gif");
 }
 
-.video{
+.video {
 
     width: 100%;
     height: 100%;
@@ -188,68 +196,86 @@ h1, h2, h3, h4 {
     left: 0;
 }
 
-.promo h3{
+.promo h3 {
     font-size: 43px;
     font-weight: lighter;
 }
-.promo-block{
+
+.promo-block {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+
 }
-.products{
+
+.products {
     width: 30%;
-    border-right: 1px solid lightsteelblue ;
+    border-right: 1px solid lightsteelblue;
 }
-.product-section, .product-section2,.product-section3, h3{
+
+.product-section1, .product-section2, .product-section3, h3 {
     padding-bottom: 20px;
 }
-.product-section1{
+
+.product-section1 {
     letter-spacing: 1px;
     color: dimgray;
     line-height: 1.5em;
     padding: 80px 80px;
+
 }
-.product-section2{
+
+.product-section2 {
     letter-spacing: 1px;
     color: dimgray;
     line-height: 1.5em;
     padding: 80px 30px;
+
 }
-.product-section3{
+
+.product-section3 {
 
     letter-spacing: 1px;
     color: #fff;
     line-height: 1.5em;
     padding: 80px 10px;
+
 }
 
 
-.research{
+.research {
     width: 30%;
 }
-.resource-center{
+
+.resource-center {
     width: auto;
     background-color: #4f71ed;
 }
 
-.research-project{
-
-    background: url("../img/woman.jpg") no-repeat;
-    background-size: cover;
+.research-project {
+    height: 760px;
     display: flex;
-    min-height: 760px;
+    flex-direction: column;
+    justify-items: center;
+    background: url("../img/woman.jpg") center no-repeat;
+    background-size: cover;
+    place-content: center;
+
+
 }
-.research-project h3{
+
+.research-project h3 {
     font-size: 43px;
     font-weight: lighter;
     line-height: 1.1em;
     max-width: 330px;
 }
-.research-project p{
-font-size: 18px;
+
+.research-project p {
+    font-size: 18px;
 }
-.project-header{
+
+.project-header {
     width: 500px;
     padding-top: 100px;
     padding-left: 70px;
@@ -259,14 +285,23 @@ font-size: 18px;
     line-height: 1.5em;
 }
 
-.installation{
-background: linear-gradient(to right , #2aaae2 , #6633ff);
+.installation {
+    background: linear-gradient(to right, #2aaae2, #6633ff);
     display: flex;
     justify-content: center;
     color: #fff;
 
 }
-.text-installation h3{
+
+.installation:before {
+
+}
+
+.text-installation {
+    text-align: center;
+}
+
+.text-installation h3 {
     padding-top: 140px;
     font-weight: lighter;
     font-size: 43px;
@@ -274,42 +309,50 @@ background: linear-gradient(to right , #2aaae2 , #6633ff);
 
 
 }
-.text-installation p{
+
+.text-installation p {
     font-weight: lighter;
     margin: 0;
 }
-.points{
+
+.points {
     font-size: 50px;
     margin-top: 0;
     padding-bottom: 140px;
 }
-.contact-us{
-background: #f4f4f4;
+
+.contact-us {
+    background: #f4f4f4;
 }
-.contact-us h3{
+
+.contact-us h3 {
     font-size: 43px;
     font-weight: lighter;
     line-height: 1.1em;
     max-width: 500px;
 }
-.contact-us p{
+
+.contact-us p {
     font-size: 18px;
 }
-.btn-contact-us{
+
+.btn-contact-us {
     padding-top: 50px;
 }
-.contact{
+
+.contact {
     border: 1px solid rebeccapurple;
-font-size: 13px;
+    font-size: 13px;
     padding: 13px;
     text-decoration: none;
 }
-.bottle-page{
+
+.bottle-page {
     display: flex;
     justify-content: space-between;
 }
 
-.footer{
+.footer {
     background: #12043d;
     min-height: 330px;
     display: flex;
@@ -317,6 +360,7 @@ font-size: 13px;
     justify-content: center;
     align-items: center;
 }
-.footer-nav{
+
+.footer-nav {
     padding-top: 50px;
 }
