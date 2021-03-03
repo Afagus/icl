@@ -25,6 +25,7 @@ h1, h2, h3, h4 {
 
 }
 
+
 /*Header*/
 .header {
     width: 100%;
@@ -146,8 +147,6 @@ h1, h2, h3, h4 {
     font-size: 42px;
     padding-top: 160px;
     letter-spacing: 2px;
-
-
 }
 
 .section-annotation {
@@ -174,6 +173,14 @@ h1, h2, h3, h4 {
     align-items: center;
 
 }
+.partner-icon{
+    filter: grayscale(100%);
+}
+
+.partner-icon:hover{
+    filter: none;
+}
+
 
 .section-links {
     display: flex;
@@ -190,13 +197,29 @@ h1, h2, h3, h4 {
     content: url("../img/link-black.gif");
 }
 
+/* Video */
 .video {
-
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
 }
+.video-presentation {
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+    width: 100%;
+}
+
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
 
 .promo h3 {
     font-size: 43px;
@@ -206,7 +229,7 @@ h1, h2, h3, h4 {
 .promo-block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -295,8 +318,9 @@ h1, h2, h3, h4 {
 
 }
 
-.installation:before {
-
+.br{
+position: absolute;
+padding-top: 35px;
 }
 
 .text-installation {
@@ -324,7 +348,7 @@ h1, h2, h3, h4 {
 }
 
 .contact-us {
-    background: #f4f4f4;
+    background: #eee;
 }
 
 .contact-us h3 {
@@ -343,10 +367,14 @@ h1, h2, h3, h4 {
 }
 
 .contact {
-    border: 1px solid rebeccapurple;
+    border: 1px solid #6b35a0;
     font-size: 13px;
     padding: 13px;
     text-decoration: none;
+}
+.contact:hover{
+    background-color: #6B35A0;
+    color: #eeeeee;
 }
 
 .bottle-page {
