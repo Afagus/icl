@@ -22,7 +22,6 @@
     <list default="true" id="10f14384-f0e7-4155-ab53-895c34dbbfb1" name="Default Changelist" comment="ближе к концу work in office">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1614699482083" duration="6271000" />
       <workItem from="1614785099905" duration="9590000" />
       <workItem from="1614871686303" duration="12000000" />
-      <workItem from="1615305959351" duration="7550000" />
+      <workItem from="1615305959351" duration="8412000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1614021045059</created>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615306029256</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ближе к концу work in office">
+      <created>1615315613907</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615315613907</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
