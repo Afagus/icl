@@ -152,11 +152,11 @@ h1, h2, h3, h4 {
     font-size: 42px;
     padding-top: 160px;
     letter-spacing: 2px;
+    padding-bottom: 50px;
 }
 
 .section-annotation {
     font-size: 18px;
-    padding-top: 50px;
     display: block;
     max-width: 750px;
     margin: 0 auto;
@@ -172,11 +172,19 @@ h1, h2, h3, h4 {
 
 .section-icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding-top: 70px;
     align-items: center;
 
+}
+.icon-item{
+    width: 33.33%;
+    text-align: center;
+}
+.partner-item{
+    width: 20%;
+    text-align: center;
 }
 
 .partner-icon {
@@ -237,29 +245,32 @@ h1, h2, h3, h4 {
 .promo-block {
     min-height: 359px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+
 }
 
 .products {
-    width: 30%;
     border-right: 1px solid lightsteelblue;
+
 }
 
-.product-section1, .product-section2, .product-section3, h3 {
+.product-section1, .product-section2, .resource-center, h3 {
     padding-bottom: 20px;
     color: black;
     padding-top: 80px;
     font-size: 43px;
     font-weight: lighter;
+    line-height: normal;
+
+
 }
 
-.product-section1, .product-section2, .product-section3 {
+.product-section1, .product-section2, .resource-center {
     color: dimgray;
     line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 16px;
     padding-left: 80px;
+
 }
 
 .resource-center {
@@ -339,6 +350,8 @@ h1, h2, h3, h4 {
     font-weight: lighter;
     font-size: 43px;
     line-height: 1.1em;
+    text-align: center;
+
 }
 
 .text-installation p {
