@@ -1,0 +1,11 @@
+.Bromine {
+    font-size: 135.66px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 2.143;
+    text-align: center;
+    position: absolute;
+    left: 398.901px;
+    top: 474.514px;
+    z-index: 40;
+}
