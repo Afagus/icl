@@ -1,20 +1,17 @@
 /* GENERAL */
 body {
-    font-family: 'Roboto', sans-serif;
+    font: 18px 'Roboto', Arial, sans-serif;
     margin: 0;
 }
 
-* {
-    box-sizing: border-box;
+a {
+    text-decoration: none;
 }
 
-/*img {
+img {
     border: 0;
     vertical-align: top;
     max-width: 100%;
-}*/
-h1, h2, h3, h4 {
-    margin: 0;
 }
 
 /* Container */
@@ -42,8 +39,8 @@ h1, h2, h3, h4 {
 }
 
 .header-inside {
-    display: flex; /* делаем блоки из дочерних элементов */
-    justify-content: space-between; /* размещаем равномерно по ширине блока*/
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -54,26 +51,16 @@ h1, h2, h3, h4 {
 
 .head-menu {
     display: inline-block;
-    /* Это значение генерирует блочный
-                               элемент, который обтекается другими
-                               элементами веб-страницы подобно встроенному
-                               элементу*/
-
     vertical-align: top;
-    /*Выравнивает элемент по вертикали
-                               относительно своего родителя, окружающего
-                               текста или ячейки таблицы.*/
+
     margin: 0 10px;
     color: #fff;
-    text-decoration: none; /*убераем подчеркивание*/
+    text-decoration: none;
     transition: color .2s linear;
-    /*Устанавливает эффект перехода
-                                       между двумя состояниями элемента*/
-
 }
 
 .head-menu:hover {
-    color: #4f71ed; /* меняем цвет при наведении*/
+    color: #4f71ed;
 }
 
 
@@ -97,16 +84,19 @@ h1, h2, h3, h4 {
 
 .main-slogan {
     font-size: 136px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Medium', sans-serif;
+    font-weight: lighter;
     color: #fff;
-    letter-spacing: 5px;
+    margin: 0 auto;
 }
 
 .secondary-slogan {
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 100;
     font-size: 46px;
-    font-weight: lighter;
     color: #fff;
-    letter-spacing: 3px;
+    margin: 0 auto;
+    letter-spacing: 1px;
 }
 
 .arrow-down {
@@ -118,7 +108,13 @@ h1, h2, h3, h4 {
 .title-annotation {
     background-color: #4f71ed;
     min-height: 300px;
+}
 
+.header_title {
+    font: 38px 'Roboto', Arial, sans-serif;
+    line-height: 1.1em;
+    margin-top: 0;
+    font-weight: lighter;
 }
 
 .annotation {
@@ -131,7 +127,7 @@ h1, h2, h3, h4 {
 .from-row-materials {
     margin: 0;
     padding: 110px 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Light', sans-serif;
     font-size: 18px;
     color: #fff;
     letter-spacing: 2px;
@@ -144,15 +140,8 @@ h1, h2, h3, h4 {
 
 .section-header {
     text-align: center;
-    margin: 0 auto;
-}
-
-.bromine-for-energy-storage {
-    font-weight: lighter;
-    font-size: 42px;
     padding-top: 160px;
-    letter-spacing: 2px;
-    padding-bottom: 50px;
+    margin: 0 auto;
 }
 
 .section-annotation {
@@ -178,11 +167,13 @@ h1, h2, h3, h4 {
     align-items: center;
 
 }
-.icon-item{
+
+.icon-item {
     width: 33.33%;
     text-align: center;
 }
-.partner-item{
+
+.partner-item {
     width: 20%;
     text-align: center;
 }
@@ -249,38 +240,31 @@ h1, h2, h3, h4 {
 
 }
 
-.products {
-    border-right: 1px solid lightsteelblue;
-
-}
-
-.product-section1, .product-section2, .resource-center, h3 {
-    padding-bottom: 20px;
-    color: black;
-    padding-top: 80px;
-    font-size: 43px;
-    font-weight: lighter;
-    line-height: normal;
-
-
-}
-
-.product-section1, .product-section2, .resource-center {
+.product-section {
+    width: 33.33%;
+    padding: 80px 30px 20px;
     color: dimgray;
     line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 16px;
-    padding-left: 80px;
-    padding-right: 30px;
-
+    box-sizing: border-box;
 }
 
-.resource-center {
+.product-section--first {
+    border-right: 2px solid #f2f2f2;
+}
+
+.product-section--resource_center {
     background-color: #4f71ed;
+    color: white;
 }
 
 .learn-more {
     color: #eeeeee;
+}
+
+.learn-more:after{
+
 }
 
 .research-project {
@@ -294,7 +278,8 @@ h1, h2, h3, h4 {
 
 
 }
-.text-installation h3,.resource-center-header{
+
+.text-installation {
     color: #eeeeee;
 }
 
@@ -313,13 +298,18 @@ h1, h2, h3, h4 {
     text-decoration: none;
     color: dimgray;
     font-size: 16px;
-    padding-left: 18px;
+
 }
 
 .learn-more2:after {
     content: url("../img/arrow-right.png");
     padding-left: 20px;
     vertical-align: text-top;
+
+}
+
+.learn-more2:hover {
+    color: #12043d;
 }
 
 .project-header {
@@ -338,12 +328,25 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: center;
     color: #fff;
+    position: relative;
 }
 
 
-
 .br {
+    top: 0;
     position: absolute;
+    font-size: 704px;
+    opacity: .05;
+    font-weight: bold;
+    left: 50%;
+    line-height: 0.75;
+    transform: translate(-50%, 0);
+}
+
+.br span {
+    padding-top: 0;
+    margin-top: 0;
+
 }
 
 .text-installation {
@@ -408,6 +411,7 @@ h1, h2, h3, h4 {
     justify-content: space-between;
     height: 517px;
 }
+
 .project-header2 {
     width: 500px;
     padding-top: 20px;
@@ -416,7 +420,9 @@ h1, h2, h3, h4 {
     letter-spacing: 1px;
     color: black;
     line-height: 1.5em;
+    font-size: 18px;
 }
+
 .footer {
     background: #12043d;
     min-height: 330px;
@@ -428,4 +434,27 @@ h1, h2, h3, h4 {
 
 .footer-nav {
     padding-top: 50px;
+}
+
+
+@media all and (max-width: 750px) {
+    .title-page {
+
+    }
+
+    .title-slogan {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .nav-header {
+        display: none;
+    }
+
+    .annotation {
+        height: 40vh;
+        font-size: 15px;
+    }
+
+
 }
