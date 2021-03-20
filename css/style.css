@@ -17,11 +17,10 @@ img {
 /* Container */
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
-
+    padding: 0 15px;
 }
-
 
 /*Header*/
 .header {
@@ -47,6 +46,7 @@ img {
 /* Navigation */
 .nav-header {
     font-size: 14px;
+    padding-right: 15px;
 }
 
 .head-menu {
@@ -165,12 +165,16 @@ img {
     justify-content: space-between;
     padding-top: 70px;
     align-items: center;
-
 }
 
 .icon-item {
     width: 33.33%;
     text-align: center;
+    display: flex;
+}
+
+.promo-text{
+    margin: 0 auto;
 }
 
 .partner-item {
@@ -439,12 +443,25 @@ img {
 
 @media all and (max-width: 750px) {
     .title-page {
-
+        height: 60vh;
     }
 
     .title-slogan {
         text-align: left;
         margin-left: 50px;
+
+    }
+
+    .main-slogan {
+        font-size: 46px;
+    }
+
+    .secondary-slogan {
+        font-size: 20px;
+    }
+
+    .arrow-down {
+        display: none;
     }
 
     .nav-header {
@@ -456,5 +473,30 @@ img {
         font-size: 15px;
     }
 
+    .from-row-materials {
+        font-size: 15px;
+    }
+
+    .header_title {
+        text-align: left;
+        margin-left: 50px;
+        font-size: 23px;
+        font-weight: 700;
+        max-width: 180px;
+    }
+
+    .section-header{
+        padding-top: 50px;
+    }
+
+    .section-annotation{
+        max-width: 220px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .icon-item{
+        width: 50%;
+
+    }
 
 }
