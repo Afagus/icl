@@ -155,13 +155,22 @@ img {
     padding-bottom: 100px;
 }
 
-.section-icons {
+.section-icons{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 70px;
     align-items: center;
 }
+.picturePartner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 70px;
+    align-items: center;
+
+}
+
 
 .icon-item {
     width: 33.33%;
@@ -399,6 +408,7 @@ img {
 
 .btn-contact-us {
     padding-top: 50px;
+    color: #12043d;
 }
 
 .contact {
