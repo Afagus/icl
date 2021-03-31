@@ -15,6 +15,20 @@ btnClick.addEventListener('click', function () {
 });
 
 
+let xhr = new XMLHttpRequest()
+let url = "js/array.json"
+
+
+xhr.open("GET", url, true)
+xhr.responseType = 'json';
+xhr.send()
+
+document.getElementById("demo").innerText = JSON.parse(xhr.responseText)
+
+
+
+
+
 function addImage(n) {
     for (var arrayOfPictures = [], image, i = 1; i <= n; i++) {
         image = new Image;
@@ -28,6 +42,8 @@ function addImage(n) {
 
 
 let arrayOfPartners = addImage(10);
+
+
 
 var counter = 0;
 btn.addEventListener("click", function () {
@@ -45,7 +61,7 @@ function temp() {
     div.prepend(a);
     bodyPartners.prepend(div);
 
-    //console.log(alert(counter));
+
 
 }
 

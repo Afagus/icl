@@ -1,0 +1,53 @@
+
+[{
+  "src": "img/partners/partner1.png",
+  "className": "partner-icon",
+  "alt": "something"
+},
+  {
+    "src": "img/partners/partner2.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner3.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner4.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner5.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner6.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner7.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner8.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner9.png",
+    "className": "partner-icon",
+    "alt": "something"
+  },
+  {
+    "src": "img/partners/partner10.png",
+    "className": "partner-icon",
+    "alt": "something"
+  }
+
+]
