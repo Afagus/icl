@@ -19,36 +19,42 @@ let xhr = new XMLHttpRequest()
 let url = "js/array.json"
 
 
+xhr.onreadystatechange = function () {
+    if (this.status == 200 && this.readyState == 4) {
+        var arrayFromFile = JSON.stringify(this.response)
+        // document.getElementById("demo").innerText = arrayFromFile
+        var arrayOfPartners = addImage(arrayFromFile);
+    }
+}
 xhr.open("GET", url, true)
 xhr.responseType = 'json';
 xhr.send()
 
-document.getElementById("demo").innerText = JSON.parse(xhr.responseText)
+
+function addImage(arrayFromOutside) {
+    arrayFromOutside.forEach(function () {
+        {
+            var image = new Image;
+            image.className = item.className;
+            image.src = item.src;
+            image.alt = item.alt
+            document.getElementById("demo").innerText = image.src
+            arrayOfPictures.push(image);
+        }
+
+})
 
 
-
-
-
-function addImage(n) {
-    for (var arrayOfPictures = [], image, i = 1; i <= n; i++) {
-        image = new Image;
-        image.className = "partner-icon";
-        image.src = "img/partners/partner" + i + ".png";
-
-        arrayOfPictures.push(image);
-    }
-    return arrayOfPictures;
 }
 
 
-let arrayOfPartners = addImage(10);
 
 
 
 var counter = 0;
 btn.addEventListener("click", function () {
     for (let i = 0; i < 3; i++) {
-        setTimeout(temp, 2000 * (i +1))
+        setTimeout(temp, 2000 * (i + 1))
     }
 })
 
@@ -60,7 +66,6 @@ function temp() {
     a.innerHTML = arrayOfPartners[counter++].outerHTML;
     div.prepend(a);
     bodyPartners.prepend(div);
-
 
 
 }
