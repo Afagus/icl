@@ -14,6 +14,18 @@ img {
     max-width: 100%;
 }
 
+/*Weather*/
+.weather{
+    font-size: 10px;
+    display: block;
+    background: #18cfcf;
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    opacity: 0.5;
+}
+
+
 
 /*Header*/
 .header {

@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <script src="js/weather.js"></script>
 </head>
 <body>
 <!--HEADER-->
+<div class="weather" id="weather">
+    <div class="weather__city"></div>
+    <div class="weather__forecast"></div>
+    <div class="weather__desc"></div>
+    <div class="weather__icon"></div>
+</div>
+
 <header class="header">
 
     <div class="header-inside">
@@ -137,55 +144,55 @@
     </div>
     <p class="section-ic" id="partnersMain">
         <button id="onClick">run JS</button>
-        <div class="section-icons" id="partners">
-            <div class="partner-item">
-                <a href="#" target="_blank"><img class="partner-icon" src="img/partners/partner1.png"
-                                                 alt="Tradition of excellence"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://ec.europa.eu/" target="_blank"><img class="partner-icon" src="img/partners/partner2.png"
-                                                                     alt="European Commission"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://www.fraunhofer.de/en.html" target="_blank"><img class="partner-icon"
-                                                                                 src="img/partners/partner3.png"
-                                                                                 alt="Fraunhofer"></a>
-            </div>
-            <div class="partner-item">
-                <a href="" target="_blank"><img class="partner-icon" src="img/partners/partner4.png" alt="EOS"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://www.primuspower.com/en/" target="_blank"><img class="partner-icon"
-                                                                               src="img/partners/partner5.png"
-                                                                               alt="Primus Power"></a>
-            </div>
+    <div class="section-icons" id="partners">
+        <div class="partner-item">
+            <a href="#" target="_blank"><img class="partner-icon" src="img/partners/partner1.png"
+                                             alt="Tradition of excellence"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://ec.europa.eu/" target="_blank"><img class="partner-icon" src="img/partners/partner2.png"
+                                                                 alt="European Commission"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://www.fraunhofer.de/en.html" target="_blank"><img class="partner-icon"
+                                                                             src="img/partners/partner3.png"
+                                                                             alt="Fraunhofer"></a>
+        </div>
+        <div class="partner-item">
+            <a href="" target="_blank"><img class="partner-icon" src="img/partners/partner4.png" alt="EOS"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://www.primuspower.com/en/" target="_blank"><img class="partner-icon"
+                                                                           src="img/partners/partner5.png"
+                                                                           alt="Primus Power"></a>
+        </div>
 
-            <div class="partner-item">
-                <a href="https://www.technion.ac.il/en/home-2/" target="_blank"><img class="partner-icon"
-                                                                                     src="img/partners/partner6.png"
-                                                                                     alt="Technion"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://www.princeton.edu/" target="_blank"><img class="partner-icon"
-                                                                          src="img/partners/partner7.png"
-                                                                          alt="Princeton University"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://redflow.com/" target="_blank"><img class="partner-icon" src="img/partners/partner8.png"
-                                                                    alt="Red flow"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://www.wattjoule.com/" target="_blank"><img class="partner-icon"
-                                                                          src="img/partners/partner9.png"
-                                                                          alt="WattJoule"></a>
-            </div>
-            <div class="partner-item">
-                <a href="https://www.lottechem.com/eng/main/index.do" target="_blank"><img class="partner-icon"
-                                                                                           src="img/partners/partner10.png"
-                                                                                           alt="Lotte Chemical"></a>
-            </div>
+        <div class="partner-item">
+            <a href="https://www.technion.ac.il/en/home-2/" target="_blank"><img class="partner-icon"
+                                                                                 src="img/partners/partner6.png"
+                                                                                 alt="Technion"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://www.princeton.edu/" target="_blank"><img class="partner-icon"
+                                                                      src="img/partners/partner7.png"
+                                                                      alt="Princeton University"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://redflow.com/" target="_blank"><img class="partner-icon" src="img/partners/partner8.png"
+                                                                alt="Red flow"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://www.wattjoule.com/" target="_blank"><img class="partner-icon"
+                                                                      src="img/partners/partner9.png"
+                                                                      alt="WattJoule"></a>
+        </div>
+        <div class="partner-item">
+            <a href="https://www.lottechem.com/eng/main/index.do" target="_blank"><img class="partner-icon"
+                                                                                       src="img/partners/partner10.png"
+                                                                                       alt="Lotte Chemical"></a>
         </div>
     </div>
+</div>
 </div>
 
 <div class="contact-us">
