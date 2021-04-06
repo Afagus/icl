@@ -16,25 +16,23 @@ btnClick.addEventListener('click', function () {
     btn.innerText = "Show partner";
     document.getElementById("partnersMain").append(btn);
     this.style.display = "none";
-});
 
+    let xhr = new XMLHttpRequest();
+    let url = "js/array.json";
 
-let xhr = new XMLHttpRequest();
-let url = "js/array.json";
+    xhr.onreadystatechange = function () {
+        if (this.status === 200 && this.readyState === 4) {
+            arrayFromFile = this.response;
 
+            arrayOfPartners = addImage(arrayFromFile);
 
-xhr.onreadystatechange = function () {
-    if (this.status === 200 && this.readyState === 4) {
-        arrayFromFile = this.response;
-
-        arrayOfPartners = addImage(arrayFromFile);
-        console.log(arrayOfPartners);
+        }
     }
-}
-xhr.open("GET", url, true)
-xhr.responseType = 'json';
-xhr.send();
+    xhr.open("GET", url, true)
+    xhr.responseType = 'json';
+    xhr.send();
 
+});
 
 function addImage(arrayFromOutside) {
     arrayFromOutside.forEach(function (item) {
@@ -45,12 +43,8 @@ function addImage(arrayFromOutside) {
             image.alt = item.alt
             arrayOfPictures.push(image);
         }
-
     })
-
-
 }
-
 
 var counter = 0;
 btn.addEventListener("click", function () {
@@ -70,7 +64,6 @@ function temp() {
 
 
 }
-
 
 
 
